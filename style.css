@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button {
+  background-color: rgb(25, 25, 25);
+  border: 3px solid white;
+  border-radius: 100px;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+button img {
+  width: 45px;
+  height: 45px;
+  padding: 21px;
+}
+.js-move {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+.reset {
+  /* margin-top: 50px; */
+  padding: 10px 15px;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+}
+.result .move-icon {
+  width: 65px;
+}
+.js-result {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 90px;
+}
+.Js-sc {
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+.auto-play {
+  /* margin-top: 50px;
+  margin-left: 15px; */
+  padding: 10px 15px;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+}
+.ctrl-switch{
+    display: flex;  
+    justify-content: space-between;  
+}
